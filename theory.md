@@ -51,9 +51,9 @@ $\textbf{Théorème (Nécessité des réflexes sous erreur d’action)}$
 
 $\quad \text{Soit } \mathfrak{A}ct = \mathbf{1}(\mathcal{P}(y=1 \mid x) \geq \tau)$$\text{ une action issue d’une cognition donnée.}$
 
-$\quad \text{Soit l’erreur d’action définie par }$ $\Delta = \mathbb{E}\big[ \ell(\mathfrak{A}ct, \mathcal{R}) \big].$
+$\quad \text{Soit l’erreur d’action définie par}$ $\Delta = \mathbb{E}\big[ \ell(\mathfrak{A}ct, \mathcal{R}) \big]$.
 $\quad \text{On suppose qu’il existe un seuil } \epsilon > 0,$
-$\text{ représentant la frontière entre comportement acceptable et comportement dégradé.}$
+$\text{représentant la frontière entre comportement acceptable et comportement dégradé}$.
 
 $$\quad \text{Si } \Delta > \epsilon,
 \text{ alors il devient nécessaire d’introduire un système de réflexes dynamiques }
