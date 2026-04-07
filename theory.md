@@ -17,7 +17,7 @@ Dans ce cadre, on introduit la nomenclature suivante :
 
 ---
 
-## 🧠 Structure cognitive du système
+##  Structure cognitive du système
 
 La **cognition** correspond au modèle (ici XGBoost) qui produit une probabilité $ \mathcal{P}(y=1 \mid x) $, que l’on peut interpréter comme une projection scalaire d’un état interne $ \eta' $. Elle constitue ainsi une **représentation du monde**, c’est-à-dire une estimation des dynamiques du réel à partir de la perception.
 
@@ -80,7 +80,7 @@ $$\text{Si } \Delta = \mathbb{E}[ \ell(\mathfrak{A}ct, \mathcal{R}) ] > \epsilon
 $$
 
 
-## 🧠 Problème fondamental
+## Problème fondamental
 
 Le problème que l’on cherche à résoudre est le suivant : une cognition, même performante, ne suffit pas à garantir une action juste dans un environnement incertain et instable. Le modèle produit une représentation du monde sous la forme d’une croyance $\mathcal{P}(y=1 \mid x)$, puis un opérateur décisionnel transforme cette croyance en action. Mais entre cette représentation et le réel subsiste toujours un écart : erreur de modélisation, bruit, mauvaise calibration ou changement de régime.
 
