@@ -60,11 +60,13 @@ $$\quad \text{Si } \Delta > \epsilon,
 \Pi_{\text{dyn}},
 \text{ tel que l’action corrigée } \mathfrak{A}ct^* \text{ vérifie :}
 $$
+
 $$
 \mathbb{E}\big[ \ell(\mathfrak{A}ct^*, \mathcal{R}) \big]
 <
 \mathbb{E}\big[ \ell(\mathfrak{A}ct, \mathcal{R}) \big].
 $$
+
 On peut résumer le théorème de la façon suivante:
 $\textbf{Formulation condensée}$
 $$\text{Si } \Delta = \mathbb{E}[ \ell(\mathfrak{A}ct, \mathcal{R}) ] > \epsilon,
