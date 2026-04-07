@@ -2,7 +2,7 @@
 
 ## 🧠 Énoncé du problème
 
-On considère un problème de classification simple : étant donné des caractéristiques observables d’un sépale (longueur, largeur, etc.), on cherche à construire un modèle capable de prédire si ce sépale appartient à une classe donnée. Pour cela, on utilise un modèle de type XGBoost, qui produit une probabilité $\mathcal{P}(y=1 \mid x)$. En parallèle, un module décisionnel cherche à déterminer un seuil $\tau$ optimal permettant de transformer cette probabilité en une décision effective.
+On considère un problème de classification simple : étant donné des caractéristiques observables d’un sépale (longueur, largeur, etc.), on cherche à construire un modèle capable de classifier si ce sépale appartient à une classe donnée. Pour cela, on utilise un modèle de type XGBoost, qui produit une probabilité $\mathcal{P}(y=1 \mid x)$. En parallèle, un module décisionnel cherche à déterminer un seuil $\tau$ optimal permettant de transformer cette probabilité en une décision effective.
 
 Dans ce cadre, on introduit la nomenclature suivante :
 - $\mathbb{P}er(\alpha)$ : perception (features observées)  
