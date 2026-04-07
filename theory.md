@@ -23,9 +23,7 @@ La **cognition** correspond au modèle (ici XGBoost) qui produit une probabilit�
 
 Cependant, cette estimation ne suffit pas à agir. Le passage à l’**action** est assuré par un opérateur décisionnel $ \tau $, qui transforme cette croyance en décision effective selon :
 
-$$
-\mathfrak{A}ct = \mathbf{1}(\mathcal{P}(y=1 \mid x) \geq \tau)
-$$
+$$\mathfrak{A}ct = \mathbf{1}(\mathcal{P}(y=1 \mid x) \geq \tau)$$
 
 Cette action brute est ensuite modulée par un ensemble de contraintes et de pénalités $\Pi$, qui jouent le rôle de **réflexes**. Ceux-ci encadrent le comportement du système afin d’éviter des décisions dangereuses ou incohérentes, produisant une action ajustée $\mathfrak{A}ct^*$.
 
