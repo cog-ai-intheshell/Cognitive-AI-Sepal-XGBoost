@@ -19,7 +19,7 @@ Dans ce cadre, on introduit la nomenclature suivante :
 
 ##  Structure cognitive du système
 
-La **cognition** correspond au modèle (ici XGBoost) qui produit une probabilité $ \mathcal{P}(y=1 \mid x) $, que l’on peut interpréter comme une projection scalaire d’un état interne $ \eta' $. Elle constitue ainsi une **représentation du monde**, c’est-à-dire une estimation des dynamiques du réel à partir de la perception.
+La **cognition** correspond au modèle (ici XGBoost) qui produit une probabilité $\mathcal{P}(y=1 \mid x)$, que l’on peut interpréter comme une projection scalaire d’un état interne $\eta'$. Elle constitue ainsi une **représentation du monde**, c’est-à-dire une estimation des dynamiques du réel à partir de la perception.
 
 Cependant, cette estimation ne suffit pas à agir. Le passage à l’**action** est assuré par un opérateur décisionnel $ \tau $, qui transforme cette croyance en décision effective selon :
 
