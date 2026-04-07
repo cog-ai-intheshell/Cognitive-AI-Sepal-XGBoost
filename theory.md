@@ -29,9 +29,7 @@ Cette action brute est ensuite modulée par un ensemble de contraintes et de pé
 
 L’écart entre la cognition et le réel est défini par :
 
-$$
-\Delta = \mathbb{E}[ \ell(\mathfrak{A}ct, \mathcal{R}) ]
-$$
+$$\Delta = \mathbb{E}[ \ell(\mathfrak{A}ct, \mathcal{R}) ]$$
 
 Lorsque cet écart augmente, il active des mécanismes adaptatifs $\Pi_{\text{dyn}}$, qui corrigent ou contraignent l’action.
 
